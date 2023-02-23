@@ -1,4 +1,4 @@
-// Require the necessary discord.js classes 
+// Require the necessary discord.js classes  lll
 const { Client, Events, GatewayIntentBits, Collection } = require('discord.js')
 
 // dotenv
