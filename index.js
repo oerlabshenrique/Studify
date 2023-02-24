@@ -1,4 +1,4 @@
-// Require the necessary discord.js classes alteaça
+// Require the necessary discord.js classes alteaça Altera
 const { Client, Events, GatewayIntentBits, Collection } = require('discord.js')
 
 // dotenv
