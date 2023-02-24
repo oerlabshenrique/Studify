@@ -2,9 +2,8 @@ const { SlashCommandBuilder, EmbedBuilder } = require("discord.js")
 
 const exampleEmbed = new EmbedBuilder()
 	.setColor("Orange")
-	.setTitle("Comandos do Git")
+	.setTitle("PRINCIPAIS COMANDOS DO GIT")
 	.addFields(
-        { name: '\u200B', value: '\u200B' },
 		{ name: '$ git init [nome-do-projeto]', value: 'Cria um novo repositório local com um nome especificado', inline: true },
 		{ name: '$ git clone [url]', value: 'Baixa um projeto e seu histórico de versão inteiro', inline: true },
 		{ name: '$ git stash', value: 'Armazena temporariamente todos os arquivos monitorados modificados', inline: true },
@@ -20,6 +19,12 @@ const exampleEmbed = new EmbedBuilder()
 		{ name: '$ git merge [nome-branch]', value: 'Combina o histórico da branch especificada a branch atual', inline: true },
 		{ name: '$ git push [alias] [branch]', value: 'Envia todos os commits do branch local para o GitHub', inline: true },
 		{ name: '$ git pull', value: 'Baixa o histórico e incorpora as mudanças', inline: true },
+
+		{ name: '\u200B', value: '\u200B' },
+		{ name: 'ORDEM DOS COMANDOS NO GIT', value: 'Por aqui é demonstrado a ordem dos comandos no Git',},
+		{ name: '$ git init', value: 'Primeiro Comando',},
+		{ name: '$ git status [alias] [branch]', value: 'Envia todos os commits do branch local para o GitHub', },
+		{ name: '$ git add .', value: 'Adiciona os arquivos', },
 	)
 
 module.exports = {
