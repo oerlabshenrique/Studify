@@ -22,9 +22,12 @@ const exampleEmbed = new EmbedBuilder()
 		{ name: '$ git pull', value: 'Baixa o histórico e incorpora as mudanças', inline: true },
 
 		{ name: '\u200B', value: '\u200B' },
-		{ name: '$ git init', value: 'Combina o histórico da branch especificada a branch atual', },
-		{ name: '$ git status', value: 'Envia todos os commits do branch local para o GitHub', },
-		{ name: '$ git add .', value: 'Baixa o histórico e incorpora as mudanças', },
+		{ name: '$ git init', value: 'Inicia', },
+		{ name: '$ git status', value: 'Status', },
+		{ name: '$ git add .', value: 'Adiciona', },
+		{ name: '$ git commit .', value: 'Commit', },
+		{ name: '$ git push origin main', value: 'Push', },
+		{ name: '$ git pull', value: 'Pull', },
 	)
 
 module.exports = {
